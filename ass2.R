@@ -80,7 +80,7 @@ flip <- function(image) {
   return(flipped_image)
 }
 
-input_image <- imager::load.image("Downloads/IMG20230304214606.jpg")
+input_image <- imager::load.image("Downloads/IMG2023.jpg")
 
   imager::plot(output_image)
 
